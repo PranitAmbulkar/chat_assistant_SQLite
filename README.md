@@ -4,8 +4,8 @@ A chatbot assistant that interacts with an SQLite database to retrieve employee 
 ---
 
 ## 🚀 **Live Demo**
-🔗 **Hosted API**: [Your Replit URL](https://your-repl-name.username.repl.co)  
-📄 **Swagger UI Docs**: [API Docs](https://your-repl-name.username.repl.co/docs)  
+🔗 **Hosted API**: [Your Replit URL](https://c98c246d-3758-4572-acd1-a48edcb7b3fc-00-1feochlksyh8g.sisko.replit.dev/)  
+📄 **Swagger UI Docs**: [API Docs](https://c98c246d-3758-4572-acd1-a48edcb7b3fc-00-1feochlksyh8g.sisko.replit.dev/docs)  
 
 ---
 
