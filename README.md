@@ -4,7 +4,7 @@ A chatbot assistant that interacts with an SQLite database to retrieve employee 
 ---
 
 ## 🚀 **Live Demo**
-🔗 **Hosted API**: [Your Replit URL](https://c98c246d-3758-4572-acd1-a48edcb7b3fc-00-1feochlksyh8g.sisko.replit.dev/)  
+🔗 **Hosted API**: [Replit URL](https://c98c246d-3758-4572-acd1-a48edcb7b3fc-00-1feochlksyh8g.sisko.replit.dev/)  
 📄 **Swagger UI Docs**: [API Docs](https://c98c246d-3758-4572-acd1-a48edcb7b3fc-00-1feochlksyh8g.sisko.replit.dev/docs)  
 
 ---
@@ -151,7 +151,7 @@ CREATE TABLE Departments (
 ---
 
 ## 🌍 **Hosting the API Online**
-### **🚀 Deploying on Replit**
+### **🚀 Deployment on Replit**
 1. **Upload all files (`main.py`, `setup_db.py`, `chat_assistant.db`, etc.).**
 2. **Modify `.replit` File:**
    ```ini
@@ -159,22 +159,7 @@ CREATE TABLE Departments (
    ```
 3. **Click "Run" and Copy the Public URL.**
 4. **Keep Your API Running Longer:**  
-   - Use [UptimeRobot](https://uptimerobot.com/) to ping your URL every 5 minutes.
-
----
-
-### **🔥 Deploying on Render (Free 24/7 Hosting)**
-1. **Push Code to GitHub**
-   ```bash
-   git push origin main
-   ```
-2. **Go to [Render](https://render.com/) and Deploy as a Web Service.**
-3. **Use Uvicorn to Run the Server**
-   ```bash
-   uvicorn main:app --host=0.0.0.0 --port=$PORT
-   ```
-
----
+   - Use [UptimeRobot](https://uptimerobot.com/) to ping your URL every 5 minutes
 
 ## ⚠️ **Known Limitations & Future Improvements**
 ### **🚨 Current Limitations**
@@ -184,13 +169,5 @@ CREATE TABLE Departments (
 ### **🔮 Future Enhancements**
 ✅ Integrate with **LLMs (like OpenAI GPT-4)** for natural language understanding.  
 ✅ Move from **SQLite → PostgreSQL** for scalability.  
-✅ Add **authentication (JWT tokens)** to restrict access.  
-
----
-
-## 📜 **License**
-This project is **open-source** under the MIT License.
-
----
-### **📧 Need Help?**
+✅ Add **authentication (JWT tokens)** to restrict acce
 For support, feel free to raise an issue in the **GitHub repository** or reach out to me. 🚀
