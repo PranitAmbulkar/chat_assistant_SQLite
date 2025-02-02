@@ -62,12 +62,6 @@ Start the FastAPI server:
 uvicorn main:app --reload
 ```
 
-### 🔹 **5. Access the Web Interface**
-- Open your browser and navigate to **`http://127.0.0.1:8000/`**.
-- Enter your query in the input box and submit.
-
----
-
 ## 💡 **Example Queries**
 🔹 *Show me all employees in the Sales department.*  
 🔹 *Who is the manager of the Marketing department?*  
