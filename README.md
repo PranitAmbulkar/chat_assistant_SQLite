@@ -69,22 +69,14 @@ The application will be available at: [http://127.0.0.1:8000](http://127.0.0.1:8
 ---
 
 ## **Known Limitations**
-- Currently supports predefined query patterns. For example, "employees in" or "manager of."
 - SQL injection prevention is handled minimally.
 - Error handling for database connection issues can be improved.
 
 ---
 
-## **Future Improvements**
-- Add more natural language processing (NLP) capabilities for diverse query understanding.
-- Improve error handling for invalid inputs.
-- Add a mobile-responsive design for better usability.
-
----
-
 ## **Demo**
 ### **Live Hosted Link**
-[Live Demo on Railway](https://chat-assistant-sqlite-production.up.railway.app)
+[Live Demo on Replit](https://c98c246d-3758-4572-acd1-a48edcb7b3fc-00-1feochlksyh8g.sisko.replit.dev/)
 
 ---
 
