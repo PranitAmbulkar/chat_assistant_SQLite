@@ -1,4 +1,4 @@
-# 🚀 **Company Chat Assistant**
+# 🚀 **SQLite Chat Assistant**
 
 A **FastAPI-based** application that interacts with an **SQLite database** to provide answers to employee- and department-related queries. This project demonstrates the ability to design, implement, and deploy a chat assistant with a clean and dynamic user interface.
 
