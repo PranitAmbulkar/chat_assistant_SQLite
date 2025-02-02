@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Chat Assistant</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #f0f4f8, #d9e2ec);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #34495e;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            width: 92%;
+            padding: 12px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+        .examples {
+            margin-top: 20px;
+            text-align: left;
+            color: #555;
+        }
+        .examples h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .examples ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+        .examples li {
+            margin: 5px 0;
+            color: #34495e;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #dfe4ea;
+            color: #34495e;
+        }
+        .result ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .result ul li {
+            background: #eaf2f8;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        .result p {
+            margin: 0;
+        }
+        .result p.error {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SQLite Chat Assistant</h1>
+        <form action="/query" method="post">
+            <input type="text" name="query" placeholder="e.g., Who is the manager of Sales department?" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="examples">
+            <h3>Example Queries:</h3>
+            <ul>
+                <li>Show me all employees in the Sales department.</li>
+                <li>Who is the manager of the Marketing department?</li>
+                <li>Show employees hired after 2022-01-01.</li>
+                <li>What is the total salary expense for Engineering?</li>
+            </ul>
+        </div>
+        <div class="result">
+            {% if result %}
+            <h3>Result:</h3>
+            <ul>
+                {% for row in result %}
+                <li>{{ row }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if message %}
+            <p>{{ message }}</p>
+            {% endif %}
+            {% if error %}
+            <p class="error">{{ error }}</p>
+            {% endif %}
+        </div>
