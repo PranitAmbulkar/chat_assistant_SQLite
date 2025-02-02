@@ -7,6 +7,12 @@ A FastAPI-based application that interacts with an SQLite database to provide an
 - Supports SQL-powered dynamic responses.
 - Provides a user-friendly web interface for submitting queries.
 - Preloaded SQLite database with sample data.
+  
+## https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/next_ui.png **Demo**
+### **Live Hosted Link**
+[Live Demo on Replit](https://c98c246d-3758-4572-acd1-a48edcb7b3fc-00-1feochlksyh8g.sisko.replit.dev/)
+
+---
 
 ## **Project Structure**
 
@@ -52,8 +58,6 @@ Start the FastAPI server:
 ```bash
 uvicorn main:app --reload
 ```
-The application will be available at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
-
 ### **5. Access the Web Interface**
 - Navigate to the `/` route (homepage) in your browser.
 - Enter your query in the input box and submit.
@@ -88,11 +92,3 @@ The application will be available at: [http://127.0.0.1:8000](http://127.0.0.1:8
 Check the `Query_Results_Screenshots/` folder for more examples.
 
 ---
-
-## **Contributing**
-Feel free to fork this repository, make your changes, and submit a pull request. Any suggestions for improvement are welcome.
-
----
-
-## **License**
-This project is licensed under the MIT License.
