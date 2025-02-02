@@ -20,30 +20,35 @@ A chatbot assistant that interacts with an SQLite database to retrieve employee 
 
 ## 🏗 **Project Structure**
 ```
-/chat-assistant
-│── main.py              # FastAPI application
-│── setup_db.py          # Database setup script
-│── chat_assistant.db    # SQLite database file
-│── requirements.txt     # Python dependencies
-│── README.md            # Project documentation
-│── .replit              # Replit configuration (if hosted on Replit)
+chat_assistant_SQLite/
+├── Query_Results_Screenshots/    # Contains screenshots of query results
+├── README.md                     # Project description and setup instructions
+├── UI_chat_assistant.png         # Screenshot of the UI for reference
+├── chat_assistant.db             # SQLite database file with preloaded data
+├── index.html                    # HTML template for the chat interface
+├── main.py                       # Main FastAPI application file
+├── replit                        # Replit configuration file
+├── requirements.txt              # Python dependencies required for the project
+├── setup_db.py                   # Script to set up and populate the SQLite database
+└── templates/                    # Directory for HTML templates (if applicable)
+    └── index.html                # HTML file for the user interface
 ```
 
 ---
 
 ## 📦 **Installation & Setup**
-### **1️⃣ Clone the Repository**
+### **1️⃣ Cloning of the Repository**
 ```bash
 git clone https://github.com/your-username/chat-assistant.git
 cd chat-assistant
 ```
 
-### **2️⃣ Install Dependencies**
+### **2️⃣ Installation of Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3️⃣ Initialize the Database**
+### **3️⃣ Initializing the Database**
 ```bash
 python setup_db.py
 ```
@@ -58,7 +63,7 @@ uvicorn main:app --host=0.0.0.0 --port=8000
 Open your browser and visit:
 ```
 http://127.0.0.1:8000/docs
-```
+``` 
 
 ---
 
