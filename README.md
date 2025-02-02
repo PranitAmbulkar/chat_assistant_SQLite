@@ -8,7 +8,7 @@ A FastAPI-based application that interacts with an SQLite database to provide an
 - Provides a user-friendly web interface for submitting queries.
 - Preloaded SQLite database with sample data.
   
-## https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/next_ui.png **Demo**
+https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/next_ui.png ##  **Demo**
 ### **Live Hosted Link**
 [Live Demo on Replit](https://c98c246d-3758-4572-acd1-a48edcb7b3fc-00-1feochlksyh8g.sisko.replit.dev/)
 
