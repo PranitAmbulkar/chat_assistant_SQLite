@@ -24,7 +24,7 @@ A **FastAPI-based** application that interacts with an **SQLite database** to pr
 chat_assistant_SQLite/
 ├── 📂 Query_Results_Screenshots/   # Contains screenshots of query results
 ├── 📄 README.md                    # Project description and setup instructions
-├── 🖼️ UI_chat_assistant.png        # Screenshot of the UI for reference
+├── 🖼️ SQLite chat_assistant.png.   # Screenshot of the UI for reference
 ├── 📂 templates/                   # Directory for HTML templates
 │   └── 📄 index.html               # HTML file for the user interface
 ├── 🗄️ chat_assistant.db            # SQLite database file with preloaded data
