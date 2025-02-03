@@ -39,25 +39,25 @@ chat_assistant_SQLite/
 
 ## 🛠️ **Setup Instructions**
 
-### 🔹 **1. Clone the Repository**
+### 🔹 **1. Cloning the Repository**
 ```bash
 git clone https://github.com/PranitAmbulkar/chat_assistant_SQLite.git
 cd chat_assistant_SQLite
 ```
 
-### 🔹 **2. Install Dependencies**
+### 🔹 **2. Installing Dependencies**
 Make sure you have **Python 3.10+** installed. Install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 🔹 **3. Set Up the Database**
+### 🔹 **3. Setting Up the Database**
 Run the `setup_db.py` file to create and populate the SQLite database:
 ```bash
 python setup_db.py
 ```
 
-### 🔹 **4. Run the Application**
+### 🔹 **4. Running the Application**
 Start the FastAPI server:
 ```bash
 uvicorn main:app --reload
