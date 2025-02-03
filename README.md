@@ -13,7 +13,7 @@ A **FastAPI-based** application that interacts with an **SQLite database** to pr
 ---
 
 ## 🌐 **Live Demo**
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-blue?style=for-the-badge&logo=firefox)](https://c98c246d-3758-4572-acd1-a48edcb7b3fc-00-1feochlksyh8g.sisko.replit.dev/)
+[![Live Demo](https://sqlite-chatbot-wnet.onrender.com/)
 
 ---
 
