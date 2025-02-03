@@ -79,7 +79,8 @@ uvicorn main:app --reload
 
 ## 📸 **Screenshots**
 ### 🖼️ **1. User Interface**
-![UI](UI_chat_assistant.png)
+![UI](SQLite chat_assistant.png)
+
 
 
 ### 📊 **2. Example Query Results**
